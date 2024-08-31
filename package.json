@@ -1,12 +1,12 @@
 {
-  "homepage": "https://nguyenminhkhanh-b1909929.github.io/fitness-app",
+  "homepage": "https://NguyenMinhKhanh-B1909929/github.io/fitness-app",
   "name": "fitness-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "redeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "framer-motion": "^11.3.28",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1"
